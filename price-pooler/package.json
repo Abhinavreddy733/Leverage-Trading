@@ -1,5 +1,5 @@
 {
-  "name": "leverage---trading",
+  "name": "price-pooler",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -8,5 +8,12 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "dotenv": "^17.2.2",
+    "ioredis": "^5.7.0",
+    "redis": "^5.8.2",
+    "ws": "^8.18.3"
   }
 }
